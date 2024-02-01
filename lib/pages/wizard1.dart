@@ -448,7 +448,7 @@ class _WizardOneState extends State<WizardOne> {
                               label: 'Next',
                               onTap: () {
                                 if (formKey.currentState!.validate()) {
-                                  Navigator.pushReplacementNamed(
+                                  Navigator.pushNamed(
                                     context,
                                     AppRoute.wizard2,
                                     arguments: {
